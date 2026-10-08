@@ -1,0 +1,105 @@
+{
+  "accessTier": "Hot",
+  "accountMigrationInProgress": null,
+  "allowBlobPublicAccess": false,
+  "allowCrossTenantReplication": false,
+  "allowSharedKeyAccess": null,
+  "allowSharedKeyAccessForServices": null,
+  "allowedCopyScope": null,
+  "azureFilesIdentityBasedAuthentication": null,
+  "blobRestoreStatus": null,
+  "creationTime": "2026-10-08T01:31:51.829421+00:00",
+  "customDomain": null,
+  "dataCollaborationPolicyProperties": null,
+  "defaultToOAuthAuthentication": null,
+  "dnsEndpointType": null,
+  "dualStackEndpointPreference": null,
+  "enableExtendedGroups": null,
+  "enableHttpsTrafficOnly": true,
+  "enableNfsV3": null,
+  "encryption": {
+    "encryptionIdentity": null,
+    "keySource": "Microsoft.Storage",
+    "keyVaultProperties": null,
+    "requireInfrastructureEncryption": null,
+    "services": {
+      "blob": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2026-10-08T01:31:52.004088+00:00"
+      },
+      "file": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2026-10-08T01:31:52.004088+00:00"
+      },
+      "queue": null,
+      "table": null
+    }
+  },
+  "extendedLocation": null,
+  "failoverInProgress": null,
+  "geoPriorityReplicationStatus": null,
+  "geoReplicationStats": null,
+  "id": "/subscriptions/dd42e208-0d56-40ad-acfd-725d61b861d0/resourceGroups/rg-compliance-foundations/providers/Microsoft.Storage/storageAccounts/stcmpf1791423065",
+  "identity": null,
+  "immutableStorageWithVersioning": null,
+  "isHnsEnabled": null,
+  "isLocalUserEnabled": null,
+  "isSftpEnabled": null,
+  "isSkuConversionBlocked": null,
+  "keyCreationTime": {
+    "key1": "2026-10-08T01:31:51.981671+00:00",
+    "key2": "2026-10-08T01:31:51.981671+00:00"
+  },
+  "keyPolicy": null,
+  "kind": "StorageV2",
+  "largeFileSharesState": null,
+  "lastGeoFailoverTime": null,
+  "location": "canadacentral",
+  "minimumTlsVersion": "TLS1_2",
+  "name": "stcmpf1791423065",
+  "networkRuleSet": {
+    "bypass": "None",
+    "defaultAction": "Allow",
+    "ipRules": [],
+    "ipv6Rules": [],
+    "resourceAccessRules": null,
+    "virtualNetworkRules": []
+  },
+  "placement": null,
+  "primaryEndpoints": {
+    "blob": "https://stcmpf1791423065.blob.core.windows.net/",
+    "dfs": "https://stcmpf1791423065.dfs.core.windows.net/",
+    "file": "https://stcmpf1791423065.file.core.windows.net/",
+    "internetEndpoints": null,
+    "ipv6Endpoints": null,
+    "microsoftEndpoints": null,
+    "queue": "https://stcmpf1791423065.queue.core.windows.net/",
+    "table": "https://stcmpf1791423065.table.core.windows.net/",
+    "web": "https://stcmpf1791423065.z9.web.core.windows.net/"
+  },
+  "primaryLocation": "canadacentral",
+  "privateEndpointConnections": [],
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": null,
+  "resourceGroup": "rg-compliance-foundations",
+  "routingPreference": null,
+  "sasPolicy": null,
+  "secondaryEndpoints": null,
+  "secondaryLocation": null,
+  "sku": {
+    "name": "Standard_LRS",
+    "tier": "Standard"
+  },
+  "statusOfPrimary": "available",
+  "statusOfSecondary": null,
+  "storageAccountSkuConversionStatus": null,
+  "systemData": null,
+  "tags": {
+    "CostCenter": "CC100",
+    "Environment": "Lab"
+  },
+  "type": "Microsoft.Storage/storageAccounts",
+  "zones": null
+}

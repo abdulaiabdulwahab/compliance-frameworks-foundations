@@ -1,0 +1,41 @@
+[
+  {
+    "complianceReasonCode": "",
+    "complianceState": "Compliant",
+    "components": null,
+    "effectiveParameters": "",
+    "isCompliant": true,
+    "managementGroupIds": "e4fab72e-8c33-4ed4-b1ce-cb20b239e768",
+    "odataContext": "https://management.azure.com/subscriptions/dd42e208-0d56-40ad-acfd-725d61b861d0/resourcegroups/rg-compliance-foundations/providers/Microsoft.Authorization/policyAssignments/audit-costcenter-p1/providers/Microsoft.PolicyInsights/policyStates/$metadata#latest/$entity",
+    "odataId": null,
+    "policyAssignmentId": "/subscriptions/dd42e208-0d56-40ad-acfd-725d61b861d0/resourcegroups/rg-compliance-foundations/providers/microsoft.authorization/policyassignments/audit-costcenter-p1",
+    "policyAssignmentName": "audit-costcenter-p1",
+    "policyAssignmentOwner": "tbd",
+    "policyAssignmentParameters": "",
+    "policyAssignmentScope": "/subscriptions/dd42e208-0d56-40ad-acfd-725d61b861d0/resourceGroups/rg-compliance-foundations",
+    "policyAssignmentVersion": "",
+    "policyDefinitionAction": "deny",
+    "policyDefinitionCategory": "tbd",
+    "policyDefinitionGroupNames": [
+      ""
+    ],
+    "policyDefinitionId": "/providers/microsoft.authorization/policydefinitions/871b6d14-10aa-478d-b590-94f262ecfa99",
+    "policyDefinitionName": "871b6d14-10aa-478d-b590-94f262ecfa99",
+    "policyDefinitionReferenceId": "",
+    "policyDefinitionVersion": "1.0.1",
+    "policyEvaluationDetails": null,
+    "policySetDefinitionCategory": "",
+    "policySetDefinitionId": "",
+    "policySetDefinitionName": "",
+    "policySetDefinitionOwner": "",
+    "policySetDefinitionParameters": "",
+    "policySetDefinitionVersion": "",
+    "resourceGroup": "rg-compliance-foundations",
+    "resourceId": "/subscriptions/dd42e208-0d56-40ad-acfd-725d61b861d0/resourcegroups/rg-compliance-foundations/providers/microsoft.storage/storageaccounts/stcmpf1791423065",
+    "resourceLocation": "canadacentral",
+    "resourceTags": "tbd",
+    "resourceType": "Microsoft.Storage/storageAccounts",
+    "subscriptionId": "dd42e208-0d56-40ad-acfd-725d61b861d0",
+    "timestamp": "2026-10-08T01:56:50.093992+00:00"
+  }
+]
